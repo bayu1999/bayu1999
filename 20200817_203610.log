@@ -1,0 +1,165 @@
+[2020-08-17 20:36:10:998] Create Engine Success
+[2020-08-17 20:36:11:014] AudioEngine::Init - Loading codec
+[2020-08-17 20:36:11:015] AudioEngine::Init - Create Capture
+[2020-08-17 20:36:11:015] AudioEngine::Init - Create AudioCore
+[2020-08-17 20:36:11:150] AudioEngine::Init - Create Playback
+[2020-08-17 20:36:11:151] AudioEngine::Init - Create Master
+[2020-08-17 20:36:11:151] AudioEngine::Init - CoreInit
+[2020-08-17 20:36:11:151] AudioEngine::Init - Set Parameters
+[2020-08-17 20:36:11:151] Init Engine Success
+[2020-08-17 20:36:11:151] Engine Init Time 141
+[2020-08-17 20:36:11:151] EngineJsonOption: 16393 {}
+[2020-08-17 20:36:11:153] EngineJsonOption: 16397 {
+	"bit0":	23068,
+	"bit16":	11084,
+	"bit32":	126,
+	"bit48":	0
+}
+[2020-08-17 20:36:11:153] Start Engine
+[2020-08-17 20:36:11:162] Start Engine Success
+
+[2020-08-17 20:36:11:162] _UpdateEngineVad
+[2020-08-17 20:36:11:162] AudioEngine::SetVadMode 0
+[2020-08-17 20:36:11:162] AudioEngine::StopCapture
+[2020-08-17 20:36:11:162] AudioCore::StopCapture
+[2020-08-17 20:36:11:162] Start Engine Success -1 timer 0 with recording 0
+[2020-08-17 20:36:11:162] WorkThreadProc 1259226352
+[2020-08-17 20:36:11:175] net thread run 949988304
+[2020-08-17 20:36:11:175] Service Create Session 0
+[2020-08-17 20:36:11:176] net thread run 949988816
+[2020-08-17 20:36:11:176] Service Create Session 1
+[2020-08-17 20:36:14:152] Check Engine Capture Stop
+[2020-08-17 20:42:26:806] Login Session Info {
+	"info":	"{\"stream_name\": \"10058_team_174274F7E08711EAB58506AA04242B0A_6\", \"account\": \"496459270@ad.netease_global.win.163.com\", \"check_url\": {\"http\": \"\", \"https\": \"\"}, \"uid\": \"214074670\", \"game_uid\": 800708696, \"httpkey\": \"f54a03a1ef591f54d9c3b986023975b089a019ac\", \"channel_type\": \"team\", \"game\": 10058}",
+	"stream_name":	"10058_team_174274F7E08711EAB58506AA04242B0A_6",
+	"ts":	"20200817204222",
+	"sign":	"40af35fa9c8ed9f0c64cfba44882a337",
+	"eid":	278661408,
+	"streamid":	"150890921783139",
+	"nodes":	["54.153.99.20:9080", "52.9.212.250:9080", "52.9.212.250:9081", "54.153.99.20:9081", "3.126.150.242:9081"]
+}
+[2020-08-17 20:42:26:811] Login Session No Score
+[2020-08-17 20:42:26:811] Service Connect Session 0
+[2020-08-17 20:42:26:816] [LogUpload] ServerConfigChecker::CheckConfig
+[2020-08-17 20:42:26:817] MutePlayback 0 0
+[2020-08-17 20:42:26:818] Login Session Info {
+	"info":	"{\"stream_name\": \"10058_nearby_174274F7E08711EAB58506AA04242B0A_5758204\", \"account\": \"496459270@ad.netease_global.win.163.com\", \"check_url\": {\"http\": \"\", \"https\": \"\"}, \"uid\": \"214074670\", \"game_uid\": 800708696, \"httpkey\": \"4006af5b4c4376a176f2ee8a98c6111657522ea1\", \"channel_type\": \"nearby\", \"game\": 10058}",
+	"stream_name":	"10058_nearby_174274F7E08711EAB58506AA04242B0A_5758204",
+	"ts":	"20200817204222",
+	"sign":	"775a3e87d5d4ff6c54ffbbd2b9db7ed7",
+	"eid":	278661402,
+	"streamid":	"150890921783140",
+	"nodes":	["54.153.99.20:9080", "52.9.212.250:9081", "52.9.212.250:9080", "54.153.99.20:9081", "3.126.74.236:9080"]
+}
+[2020-08-17 20:42:26:818] Login Session No Score
+[2020-08-17 20:42:26:818] Service Connect Session 1
+[2020-08-17 20:42:26:818] [LogUpload] ServerConfigChecker::CheckConfig
+[2020-08-17 20:42:26:818] MutePlayback 0 0
+[2020-08-17 20:42:26:818] MutePlayback 1 0
+[2020-08-17 20:42:26:820] [LogUpload] ServerConfigChecker::ThreadMain
+[2020-08-17 20:42:26:820] [LogUpload] ServerConfigChecker::ThreadMain
+[2020-08-17 20:42:26:825] [session 0] Audio Try To Connect 54.153.99.20:9080
+[2020-08-17 20:42:26:826] [session 1] Audio Try To Connect 54.153.99.20:9080
+[2020-08-17 20:42:26:827] [session 0] Connect Audio eid 278661408 mid 150890921783139
+[2020-08-17 20:42:26:827] [session 1] Connect Audio eid 278661402 mid 150890921783140
+[2020-08-17 20:42:27:015] [session 0] Audio Tcp Connected
+[2020-08-17 20:42:27:015] [session 0] Audio Attach eid=278661408 mid=150890921783139 info {
+	"stream_name":	"10058_team_174274F7E08711EAB58506AA04242B0A_6",
+	"account":	"496459270@ad.netease_global.win.163.com",
+	"check_url":	{
+		"http":	"",
+		"https":	""
+	},
+	"uid":	"214074670",
+	"game_uid":	800708696,
+	"httpkey":	"f54a03a1ef591f54d9c3b986023975b089a019ac",
+	"channel_type":	"team",
+	"game":	10058,
+	"type":	100105,
+	"qnetversion":	1000
+}
+[2020-08-17 20:42:27:015] [session 1] Audio Tcp Connected
+[2020-08-17 20:42:27:015] [session 1] Audio Attach eid=278661402 mid=150890921783140 info {
+	"stream_name":	"10058_nearby_174274F7E08711EAB58506AA04242B0A_5758204",
+	"account":	"496459270@ad.netease_global.win.163.com",
+	"check_url":	{
+		"http":	"",
+		"https":	""
+	},
+	"uid":	"214074670",
+	"game_uid":	800708696,
+	"httpkey":	"4006af5b4c4376a176f2ee8a98c6111657522ea1",
+	"channel_type":	"nearby",
+	"game":	10058,
+	"type":	100105,
+	"qnetversion":	1000
+}
+[2020-08-17 20:42:27:225] [session 0] Audio Attach Ack 0
+[2020-08-17 20:42:27:235] [session 1] Audio Attach Ack 0
+[2020-08-17 20:42:27:236] [session 1] Audio Protocol cmd 0 hid 2113602683 port 5503 protocol 1
+[2020-08-17 20:42:27:236] try to connect udp
+[2020-08-17 20:42:27:237] QuickNet option fec.dynamic=1;fec.enable=1;session.nodelay=1;kcp.interval=2;kcp.nodelay=1;kcp.resend=2;kcp.nc=1;kcp.sndwnd=100;kcp.rcvwnd=200;fec.k=4;fec.n=6 protocol 1
+[2020-08-17 20:42:27:237] [session 1] Ban Change Can Speak 1
+[2020-08-17 20:42:27:242] _UpdateEngineVad
+[2020-08-17 20:42:27:243] AudioEngine::SetVadMode 0
+[2020-08-17 20:42:27:243] AudioEngine::StopCapture
+[2020-08-17 20:42:27:243] AudioCore::StopCapture
+[2020-08-17 20:42:27:384] [session 0] Audio Protocol cmd 0 hid 2113540228 port 5502 protocol 1
+[2020-08-17 20:42:27:385] try to connect udp
+[2020-08-17 20:42:27:385] QuickNet option fec.dynamic=1;fec.enable=1;session.nodelay=1;kcp.interval=2;kcp.nodelay=1;kcp.resend=2;kcp.nc=1;kcp.sndwnd=100;kcp.rcvwnd=200;fec.k=4;fec.n=6 protocol 1
+[2020-08-17 20:42:27:385] [session 0] Ban Change Can Speak 1
+[2020-08-17 20:42:27:391] _UpdateEngineVad
+[2020-08-17 20:42:27:391] AudioEngine::SetVadMode 0
+[2020-08-17 20:42:27:391] AudioEngine::StopCapture
+[2020-08-17 20:42:27:391] AudioCore::StopCapture
+[2020-08-17 20:42:27:616] [session 1] Audio Udp Connected
+[2020-08-17 20:42:27:755] [session 0] Audio Udp Connected
+[2020-08-17 20:42:27:806] [session 1] udp touch ok
+[2020-08-17 20:42:27:975] [session 0] udp touch ok
+[2020-08-17 20:42:57:006] MsgHeartBeat::MID eid 278661408 sign c49e4b88af85d76840301d01ea102685 ts 20200817204301
+[2020-08-17 20:42:57:012] MsgHeartBeat::MID eid 278661402 sign 3b80af4332d2d8f9cf8cf04aca0901d0 ts 20200817204301
+[2020-08-17 20:44:45:378] Go Background, deal-home 1, real-start 1
+[2020-08-17 20:44:45:383] Stop Engine
+[2020-08-17 20:44:45:383] AudioEngine::Stop1
+[2020-08-17 20:44:45:448] AudioEngine::Stop2
+[2020-08-17 20:44:45:448] AudioCore::StopCapture
+[2020-08-17 20:44:45:449] AudioEngine::Stop3
+[2020-08-17 20:44:45:473] AudioEngine::Stop4
+[2020-08-17 20:44:45:476] AudioEngine::Stop5
+[2020-08-17 20:45:34:553] Go Active, deal-home 1, need-start 1, real-start 0
+[2020-08-17 20:45:34:555] Interrupt End, Deal Home, Reset
+[2020-08-17 20:45:34:555] Start Engine
+[2020-08-17 20:45:34:598] Start Engine Success
+
+[2020-08-17 20:45:34:598] _UpdateEngineVad
+[2020-08-17 20:45:34:598] AudioEngine::SetVadMode 0
+[2020-08-17 20:45:34:598] AudioEngine::StopCapture
+[2020-08-17 20:45:34:598] AudioCore::StopCapture
+[2020-08-17 20:45:34:598] Start Engine Success -1 timer 56339 with recording 0
+[2020-08-17 20:45:36:396] MutePlayback 0 0
+[2020-08-17 20:45:36:397] MutePlayback 1 0
+[2020-08-17 20:45:36:401] _UpdateEngineVad
+[2020-08-17 20:45:36:401] AudioEngine::SetVadMode 0
+[2020-08-17 20:45:36:401] AudioEngine::StopCapture
+[2020-08-17 20:45:36:402] AudioCore::StopCapture
+[2020-08-17 20:45:36:402] _UpdateEngineVad
+[2020-08-17 20:45:36:402] AudioEngine::SetVadMode 0
+[2020-08-17 20:45:36:402] AudioEngine::StopCapture
+[2020-08-17 20:45:36:402] AudioCore::StopCapture
+[2020-08-17 20:45:37:152] Check Engine Capture Stop
+[2020-08-17 20:45:37:172] _UpdateEngineVad
+[2020-08-17 20:45:37:172] AudioEngine::SetVadMode 0
+[2020-08-17 20:45:37:172] AudioEngine::StopCapture
+[2020-08-17 20:45:37:172] AudioCore::StopCapture
+[2020-08-17 20:45:37:172] _UpdateEngineVad
+[2020-08-17 20:45:37:172] AudioEngine::SetVadMode 0
+[2020-08-17 20:45:37:172] AudioEngine::StopCapture
+[2020-08-17 20:45:37:172] AudioCore::StopCapture
+[2020-08-17 20:50:19:788] Go Background, deal-home 1, real-start 1
+[2020-08-17 20:50:19:800] Stop Engine
+[2020-08-17 20:50:19:802] AudioEngine::Stop1
+[2020-08-17 20:50:19:844] AudioEngine::Stop2
+[2020-08-17 20:50:19:844] AudioCore::StopCapture
+[2020-08-17 20:50:19:844] AudioEngine::Stop3
+[2020-08-17 20:50:19:865] AudioEngine::Stop4
+[2020-08-17 20:50:19:866] AudioEngine::Stop5
